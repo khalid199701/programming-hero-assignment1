@@ -1,7 +1,35 @@
-.azeret-mono-normal {
-    font-family: "Azeret Mono", monospace;
-    font-optical-sizing: auto;
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
     font-style: normal;
+  }
+  
+  .roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+*{
+    font-family: "Roboto",sans-serif;
 }
 /* nav starts */
 nav{
@@ -75,7 +103,7 @@ nav button{
     text-align: center;
 }
 .my-inspiration h3, p{
-    margin-bottom: 24px;
+    margin-bottom: 50px;
 }
 /* target starts */
 .target-content{
@@ -92,25 +120,28 @@ nav button{
     height: 300px;
     width: 364px;
     padding: 40px;
+    border-radius: 16px;
 }
 .card .cs{
     background-color: #F2F6FE;
     height: 300px;
     width: 364px;
     padding: 40px;
+    border-radius: 16px;
 }
 .card .js{
     background-color: #FFFDF2;
     height: 300px;
     width: 364px;
     padding: 40px;
+    border-radius: 16px;
 }
 .card a{
     color:black;
 }
 /* support starts */
 .support{
-    background-image: url(../assets/handshake.jpg);
+    background-image: linear-gradient() url(../assets/handshake.jpg);
     text-align: center;
     padding: 64px;
     margin: 44px 0;
@@ -127,4 +158,16 @@ nav button{
 #inpt-submit{
     width: 120px;
     height: 58px;
+}
+/* footer starts */
+.footer{
+    height: 100px;
+    max-width: 1440px;
+    background-color: #F8F8F8;
+    padding: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-icon{
+    margin-right: 24px;
 }
