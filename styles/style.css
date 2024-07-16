@@ -98,12 +98,13 @@ nav button{
     gap: 32px;
     margin: 10px 97px;
 }
+/* inspirations starts */
 .my-inspiration{
     margin: 88px;
     text-align: center;
 }
 .my-inspiration h3, p{
-    margin-bottom: 24px;
+    margin-bottom: 45px;
 }
 /* target starts */
 .target-content{
