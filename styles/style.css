@@ -3,6 +3,7 @@
     font-optical-sizing: auto;
     font-style: normal;
 }
+/* nav starts */
 nav{
     display: flex;
     justify-content: space-between;
@@ -16,8 +17,29 @@ nav .logo{
 nav button{
     background-color: whitesmoke;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 16px;
     border: 2px solid black;
     border-radius: 5px;
     padding: 17px 24px;
+}
+/* banner starts */
+.banner{
+    background-image: url("../assets/Hero-bg.png");
+}
+.banner button{
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.banner-content{
+    text-align: center;
+    padding: 26px;
+}
+.dev-img{
+    margin-bottom: 32px;
+}
+.banner-content p{
+    margin-bottom: 32px;
 }
