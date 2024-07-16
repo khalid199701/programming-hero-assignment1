@@ -1,0 +1,23 @@
+.azeret-mono-normal {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 150px;
+    align-items: center;
+}
+nav .logo{
+    font-size: 28px;
+    font-weight: bolder;
+}
+nav button{
+    background-color: whitesmoke;
+    font-weight: 500;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 17px 24px;
+}
