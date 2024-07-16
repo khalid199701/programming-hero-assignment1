@@ -70,3 +70,10 @@ nav button{
     gap: 32px;
     margin: 10px 97px;
 }
+.my-inspiration{
+    margin: 88px;
+    text-align: center;
+}
+.my-inspiration h3, p{
+    margin-bottom: 24px;
+}
