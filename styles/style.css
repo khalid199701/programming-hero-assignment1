@@ -77,3 +77,54 @@ nav button{
 .my-inspiration h3, p{
     margin-bottom: 24px;
 }
+/* target starts */
+.target-content{
+    text-align: center;
+}
+.cards{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin-top: 48px 100px 0 0;
+}
+.card .htl{
+    background-color: #FFF6F4;
+    height: 300px;
+    width: 364px;
+    padding: 40px;
+}
+.card .cs{
+    background-color: #F2F6FE;
+    height: 300px;
+    width: 364px;
+    padding: 40px;
+}
+.card .js{
+    background-color: #FFFDF2;
+    height: 300px;
+    width: 364px;
+    padding: 40px;
+}
+.card a{
+    color:black;
+}
+/* support starts */
+.support{
+    background-image: url(../assets/handshake.jpg);
+    text-align: center;
+    padding: 64px;
+    margin: 44px 0;
+    border-radius: 5px;
+}
+.support-content{
+    color: white;
+}
+#inpt-text{
+    height: 58px;
+    width: 684px;
+    margin-right: 16px;
+}
+#inpt-submit{
+    width: 120px;
+    height: 58px;
+}
