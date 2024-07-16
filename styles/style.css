@@ -25,6 +25,7 @@ nav button{
 /* banner starts */
 .banner{
     background-image: url("../assets/Hero-bg.png");
+    margin-bottom: 74px;
 }
 .banner button{
     background-color: black;
@@ -40,6 +41,32 @@ nav button{
 .dev-img{
     margin-bottom: 32px;
 }
+.banner-content>h1{
+    font-weight: bold;
+}
 .banner-content p{
     margin-bottom: 32px;
+}
+/* web-dev starts */
+.web-dev{
+    align-items: center;
+    background-color: #FAFAFB;
+}
+.web-dev-content{
+    padding: 80px;
+    text-align: center;
+    margin: 47px;
+}
+.web-dev-items .context button{
+    background-color: white;
+    border: 2px solid black;
+    padding: 12px;
+}
+.web-dev-items{
+    display: flex;
+    justify-content: center;
+    padding: 32px;
+    background-color: white;
+    gap: 32px;
+    margin: 10px 97px;
 }
